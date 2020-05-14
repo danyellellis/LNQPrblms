@@ -12,6 +12,9 @@ namespace LINQProblem
         {
             ListOfWords listOfWords = new ListOfWords();
             listOfWords.returnWords();
+            listOfWords.withoutDuplicates();
+            listOfWords.CalculateGradeDropLow();
+            listOfWords.LetterFrequency();
         }
     }
 
